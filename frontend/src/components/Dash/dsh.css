@@ -1,0 +1,47 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color */
+}
+
+.dashboard {
+  background-color: #ffffff; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 100px;
+  align-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.dashboard-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.dashboard-link {
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.dashboard-link a {
+  text-decoration: none;
+  color: rgb(13, 13, 14); /* Link color */
+}
+
+.dashboard-link a:hover {
+  color: #eea840; /* Link color on hover */
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Optional: to stack items vertically */
+}

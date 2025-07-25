@@ -1,0 +1,44 @@
+/* Add this CSS to your stylesheet */
+.container {
+    max-width: 900px; /* Adjust container width as needed */
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .group-details {
+    margin-bottom: 40px; /* Increase margin for better separation between groups */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Add border to the whole table */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9e9e9; /* Hover effect on rows */
+  }
+  
+  .empty-row {
+    height: 20px; /* Increase gap height */
+  }
+  
